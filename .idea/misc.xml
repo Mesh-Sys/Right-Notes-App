@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/card_check.xml" value="0.1" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.23385416666666667" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.15833333333333333" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.15833333333333333" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/ic_more_vert_24.xml" value="0.22962962962962963" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/drawable/stroke_c.xml" value="0.11203703703703703" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/layout/activity_main.xml" value="0.3202247191011236" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/layout/input_layout.xml" value="0.264945652173913" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/layout/memo_layout.xml" value="0.33" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/menu/contexual_menu.xml" value="0.381025641025641" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_22/app/src/main/res/menu/input_menu.xml" value="0.381025641025641" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/drawable/card_check.xml" value="0.34814814814814815" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.34814814814814815" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.34814814814814815" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.34814814814814815" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/layout/input_layout.xml" value="0.3875" />
+        <entry key="..\:/ANDRIOD_APPLICATION/AdvancedMaterial_23/app/src/main/res/layout/memo_layout.xml" value="0.3875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
