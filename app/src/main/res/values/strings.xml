@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Right Notes</string>
+    <string name="loremipsium_1">loremipsium</string>
+    <string name="loremipsium_3">loremipsium\nloremipsium\nloremipsium</string>
+    <string name="loremipsium_5">loremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium</string>
+    <string name="loremipsium_7">loremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium</string>
+    <string name="loremipsium_2">loremipsium\nloremipsium</string>
+    <string name="loremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_n">loremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\nloremipsium\n</string>
+    <string name="deletelist">deletelist</string>
+    <string name="delete">delete</string>
+    <string name="optionmenu">Optionmenu</string>
+</resources>

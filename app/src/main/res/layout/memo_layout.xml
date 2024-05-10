@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:checkable="true"
+    android:clickable="true"
+    android:layout_margin="5dp"
+    app:strokeWidth="1dp"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/stroke_tcolor"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="10dp"
+    app:checkedIconGravity="TOP_END"
+    app:checkedIconTint="@color/yellow_500"
+    app:cardForegroundColor="@color/foreground_check"
+    app:rippleColor="@color/yellow_80"
+    android:id="@+id/cardbtn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/maintxt"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:minLines="1"
+            android:maxLines="10"
+            android:maxHeight="120dp"
+            android:text="@string/loremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_nloremipsium_n" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:maxLines="2"
+            android:textAllCaps="false"
+            android:ems="10"
+            android:gravity="bottom|start"
+            android:layout_marginTop="5dp"
+            android:textSize="10dp"
+            android:textColor="@color/black_100"
+            android:text="10:12 pm \n12 Aug 22"
+            android:id="@+id/datetxt"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainInput"
+    android:backgroundTint="@color/white">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="15dp"
+        app:liftOnScroll="true"
+        android:id="@+id/appbarlayoutInput">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:id="@+id/inputToolbar"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/touchscroll"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtInputLayout"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:background="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/white"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:id="@+id/MainInputedt"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
