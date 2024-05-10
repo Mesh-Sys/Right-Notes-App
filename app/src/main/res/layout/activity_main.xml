@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:minWidth="300dp"
+    android:minHeight="450dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="15dp"
+        android:id="@+id/appbarlayout"
+        app:liftOnScroll="true">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Memo list"
+            app:titleTextColor="@color/white"
+            app:navigationIcon="@drawable/ic_menu_24"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"/>
+    </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/mainrec"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right"
+            android:scrollbarSize="5dp"
+            android:scrollbarThumbVertical="@color/yellow_100"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/addNotefabbtn"
+        app:rippleColor="@color/yellow_100"
+        app:elevation="10dp"
+        app:borderWidth="0dp"
+        android:src="@drawable/ic_baseline_note_add_24"
+        android:contentDescription="add"
+        app:tint="@color/white" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        app:layout_anchor="@id/addNotefabbtn"
+        android:id="@+id/deleteNotefabbtn"
+        app:rippleColor="@color/yellow_100"
+        app:elevation="10dp"
+        app:borderWidth="0dp"
+        app:layout_anchorGravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:contentDescription="delete"
+        app:tint="@color/white"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        app:layout_anchor="@id/deleteNotefabbtn"
+        app:layout_anchorGravity="center_horizontal"
+        android:layout_marginBottom="175dp"
+        android:id="@+id/cancelfabbtn"
+        app:rippleColor="@color/yellow_100"
+        app:elevation="10dp"
+        app:borderWidth="0dp"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:contentDescription="cancel"
+        app:tint="@color/white"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
